@@ -1,0 +1,41 @@
+const EntityMap = {
+  empty: null,
+  outOfBounds: -1,
+  zero: 0,
+  // Colors
+  BUBBLE_START: 1,
+  BUBBLE_END: 10,
+  red: 1,
+  blue: 2,
+  grey: 3,
+  yellow: 4,
+  purple: 5,
+  skyBlue: 6,
+  orange: 7,
+  pink: 8,
+  green: 9,
+  colors: {
+    1: "red",
+    2: "blue",
+    3: "grey",
+    4: "yellow",
+    5: "purple",
+    6: "skyBlue",
+    7: "orange",
+    8: "pink",
+    9: "green",
+  },
+  frames: {
+    red: 5,
+    blue: 1,
+    grey: 6,
+    yellow: 2,
+    purple: 3,
+    skyBlue: 7,
+    orange: 8,
+    pink: 0,
+    green: 4,
+  },
+};
+
+export { EntityMap };
