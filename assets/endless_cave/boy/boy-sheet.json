@@ -1,0 +1,111 @@
+{ "frames": {
+   "boy-sheet 0.aseprite": {
+    "frame": { "x": 0, "y": 0, "w": 80, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 80, "h": 128 },
+    "sourceSize": { "w": 80, "h": 128 },
+    "duration": 100
+   },
+   "boy-sheet 1.aseprite": {
+    "frame": { "x": 80, "y": 0, "w": 80, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 80, "h": 128 },
+    "sourceSize": { "w": 80, "h": 128 },
+    "duration": 100
+   },
+   "boy-sheet 2.aseprite": {
+    "frame": { "x": 160, "y": 0, "w": 80, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 80, "h": 128 },
+    "sourceSize": { "w": 80, "h": 128 },
+    "duration": 100
+   },
+   "boy-sheet 3.aseprite": {
+    "frame": { "x": 240, "y": 0, "w": 80, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 80, "h": 128 },
+    "sourceSize": { "w": 80, "h": 128 },
+    "duration": 100
+   },
+   "boy-sheet 4.aseprite": {
+    "frame": { "x": 320, "y": 0, "w": 80, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 80, "h": 128 },
+    "sourceSize": { "w": 80, "h": 128 },
+    "duration": 100
+   },
+   "boy-sheet 5.aseprite": {
+    "frame": { "x": 400, "y": 0, "w": 80, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 80, "h": 128 },
+    "sourceSize": { "w": 80, "h": 128 },
+    "duration": 100
+   },
+   "boy-sheet 6.aseprite": {
+    "frame": { "x": 480, "y": 0, "w": 80, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 80, "h": 128 },
+    "sourceSize": { "w": 80, "h": 128 },
+    "duration": 100
+   },
+   "boy-sheet 7.aseprite": {
+    "frame": { "x": 560, "y": 0, "w": 80, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 80, "h": 128 },
+    "sourceSize": { "w": 80, "h": 128 },
+    "duration": 100
+   },
+   "boy-sheet 8.aseprite": {
+    "frame": { "x": 640, "y": 0, "w": 80, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 80, "h": 128 },
+    "sourceSize": { "w": 80, "h": 128 },
+    "duration": 100
+   },
+   "boy-sheet 9.aseprite": {
+    "frame": { "x": 720, "y": 0, "w": 80, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 80, "h": 128 },
+    "sourceSize": { "w": 80, "h": 128 },
+    "duration": 100
+   },
+   "boy-sheet 10.aseprite": {
+    "frame": { "x": 800, "y": 0, "w": 80, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 80, "h": 128 },
+    "sourceSize": { "w": 80, "h": 128 },
+    "duration": 100
+   }
+ },
+ "meta": {
+  "app": "https://www.aseprite.org/",
+  "version": "1.3-rc2-x64",
+  "image": "boy-sheet.png",
+  "format": "RGBA8888",
+  "size": { "w": 880, "h": 128 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "hit", "from": 0, "to": 0, "direction": "forward", "color": "#000000ff" },
+   { "name": "idle", "from": 1, "to": 2, "direction": "forward", "color": "#000000ff" },
+   { "name": "jump-dn", "from": 3, "to": 3, "direction": "forward", "color": "#000000ff" },
+   { "name": "jump-up", "from": 4, "to": 4, "direction": "forward", "color": "#000000ff" },
+   { "name": "run", "from": 5, "to": 10, "direction": "forward", "color": "#000000ff" }
+  ],
+  "layers": [
+   { "name": "Sprite Sheet", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}
