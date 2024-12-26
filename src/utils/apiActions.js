@@ -35,32 +35,35 @@ export const getGameData = async (gameName) => {
 };
 
 export const getUserData = async (code) => {
-  return await axios
-    .get(`https://us-central1-prodmxs.cloudfunctions.net/getUserDataByCode?game_access_code=${code}`, {
-      headers: {
-        Authorization: API_KEY,
-      },
-    })
-    .then((res) => {
-      if (res.data) {
-        return res.data;
-      }
-      return null;
-    })
-    .catch((err) => {
-      if (err.response.data && typeof err.response.data == "string") {
-        toast.error(err.response.data);
-      } else {
-        toast.error("Failed to get user data!");
-      }
-      console.log(err);
-      return null;
-    });
+  // return await axios
+  //   .get(`https://us-central1-prodmxs.cloudfunctions.net/getUserDataByCode?game_access_code=${code}`, {
+  //     headers: {
+  //       Authorization: API_KEY,
+  //     },
+  //   })
+  //   .then((res) => {
+  //     if (res.data) {
+  //       return res.data;
+  //     }
+  //     return null;
+  //   })
+  //   .catch((err) => {
+  //     if (err.response.data && typeof err.response.data == "string") {
+  //       toast.error(err.response.data);
+  //     } else {
+  //       toast.error("Failed to get user data!");
+  //     }
+  //     console.log(err);
+  //     return null;
+  //   });
+  return { id: "1234", userName: "1234", code: "7520" };
 };
 
 export const claimReward = async (gameName, userId) => {
   let ip_address = "";
-  let ipdata = await axios.get("https://api.ipify.org/?format=json").then((response) => response.data);
+  let ipdata = await axios
+    .get("https://api.ipify.org/?format=json")
+    .then((response) => response.data);
   let gameData = await getGameData(gameName);
   if (ipdata && ipdata.ip) ip_address = ipdata.ip;
   return axios
